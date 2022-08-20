@@ -1,0 +1,198 @@
+.banner-img {
+    width: 100%;
+    min-height: 50px;
+    max-height: 350px;
+    margin-bottom: 15px;
+}
+
+.treding-courses-text {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+@media (max-width:400px) {
+    .treding-courses-text {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+
+.course-wrapper {
+    margin: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.course-cards {
+    margin: 12px;
+}
+
+.university-listing,
+.subject-listing,
+.module-listing {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 30px 0;
+
+}
+
+
+.comming-soon-text {
+    font-size: 16px;
+    color: #414141;
+}
+
+.mg-university,
+.kt-university,
+.calicut-university {
+    width: 30%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 10px;
+}
+
+.mg-university {
+    background-color: #b3f5d9;
+}
+
+.kt-university {
+    background-color: #70d4ab;
+}
+
+.calicut-university {
+    background-color: #0f8855;
+}
+
+.sub-one,
+.sub-two,
+.sub-three,
+.sub-four {
+    width: 24%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 10px;
+}
+
+.sub-one {
+    background-color: #97d1f3;
+}
+
+.sub-two {
+    background-color: #70c2f1;
+}
+
+.sub-three {
+    background-color: #47b0ec;
+}
+
+.sub-four {
+    background-color: #1d94da;
+}
+
+.module-main-div,
+.module-main-div-mobile {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #b6f6ff;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.module-main-div .module-title {
+    width: 20%;
+    text-align: center;
+    padding: 22px 0 0 0;
+    font-weight: bold;
+}
+
+.module-main-div .module-topics {
+    width: 60%;
+}
+
+.module-main-div .module-pricing {
+    width: 20%;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.module-pricing .price {
+    font-size: 30px;
+}
+
+.module-pricing .price strike {
+    font-size: 22px;
+    color: #8f8f8f;
+}
+
+.module-main-div-mobile {
+    display: none;
+}
+
+.add-to-cart-btn {
+    margin: 7px 0 0 0;
+    padding: 8px 17px 8px 17px;
+    color: white;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+
+    .mg-university,
+    .kt-university,
+    .calicut-university {
+        width: 99%;
+        margin-bottom: 12px;
+    }
+
+    .sub-one,
+    .sub-two,
+    .sub-three,
+    .sub-four {
+        width: 48%;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .module-main-div {
+        display: none;
+    }
+
+    .module-main-div-mobile {
+        display: grid;
+    }
+
+    .grid-wrapper {
+        display: flex;
+    }
+
+    .module-main-div-mobile .module-title {
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .module-main-div-mobile .module-topics {
+        width: 80%;
+        padding: 0 0 0 30px;
+    }
+
+    .module-main-div-mobile .module-pricing {
+        width: 20%;
+        padding: 15px 0 0 0;
+    }
+}

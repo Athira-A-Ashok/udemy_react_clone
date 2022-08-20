@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px 30px 10px 30px;
+  border: none;
+  border-top: 1.4px solid rgb(99, 99, 99);
+  padding-top: 20px;
+}
+
+.footer-left p {
+  margin: 15px;
+
+}
+
+.footer-right {
+  margin-bottom: 50px;
+}
+
+.footer-right .studyouk-logo .studyouk-text {
+  color: #4c5c5b;
+  font-size: 32px;
+  font-family: serif;
+}
+
+.social-icons i {
+  margin: 10px 8px;
+  color: #030f30;
+}

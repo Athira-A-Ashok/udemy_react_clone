@@ -1,0 +1,161 @@
+.purchased-courses-main-div {
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  height: 100%;
+  text-align: center;
+}
+
+.purchased-courses-main-div .purchased-courses-txt {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.purchased-courses-main-div .purchased-courses-div {
+  content: "\f054";
+  background: #b1e6d6;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 5px 0;
+}
+
+.purchased-courses-txt {
+  margin-bottom: 30px;
+}
+
+.video-details-div {
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+.purchased-courses-div .clear-txt {
+  color: rgb(11, 87, 201);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.purchased-courses-main-div .purchased-course-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.purchased-course-card .pc-card {
+  width: 23.5%;
+  background: rgb(179, 238, 199);
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.pc-card img {
+  width: 100%;
+}
+
+.pc-card p {
+  padding: 0;
+  margin: 0;
+}
+
+.sub {
+  /* background-color: white; */
+  color: black;
+  border-radius: 8px;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  outline: none;
+}
+
+.mod {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 8px;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  outline: none;
+
+}
+
+.gotopage {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .purchased-course-card .pc-card {
+    width: 100%;
+  }
+
+  .purchased-courses-main-div .purchased-courses-div {
+    display: table-cell;
+    /* margin: 0 auto;
+      align-items: center;
+      line-height: 20px; */
+    float: right;
+  }
+
+  .sub {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+  }
+
+  .mod {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+  }
+}
+
+.hiddendiv {
+  display: none;
+  height: 200px;
+  background-color: aliceblue;
+  margin-top: 5px;
+
+}
+
+
+.purchased-courses-div:focus+.hiddendiv {
+  display: block;
+
+}
+
+.Collapsible__trigger::after {
+  color: blue;
+  content: "\2304";
+  font-size: 30px;
+}
+
+.purchase-sub {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 270px;
+  height: 60px;
+  margin-left: 5px;
+  margin-top: 50px;
+  padding-left: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  background: #AAFCF7;
+  border-radius: 6px;
+  font-weight: 600;
+}
